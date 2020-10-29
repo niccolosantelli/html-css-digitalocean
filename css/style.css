@@ -7,6 +7,18 @@ h1{
   font-size: 58px;
 }
 
+.mt_40{
+  margin-top: 40px;
+}
+
+.mt_20{
+  margin-top: 20px;
+}
+
+.mb_30{
+  margin-bottom: 30px;
+}
+
 .navbar{
   border: none;
   margin-bottom: 10px;
@@ -74,4 +86,15 @@ margin-left: -70px
 
 form span{
 margin-left: 130px;
+}
+
+.sponsor{
+  width: 100%;
+  background-color: rgb(243, 245, 249)
+}
+
+.card_sponsor img{
+  width: 180px;
+
+  padding: 5px;
 }
