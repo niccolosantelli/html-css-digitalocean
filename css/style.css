@@ -1,0 +1,77 @@
+body{
+  font-family:'Roboto', sans-serif;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 58px;
+}
+
+.navbar{
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.navbar-default{
+  background-color: white;
+  border-color: none;
+}
+
+.navbar-header .img_navbar{
+  width: 150px;
+  margin-top:10px;
+}
+
+.navbar-default .navbar-nav>.active>a{
+  background-color: white;
+}
+
+#bs-example-navbar-collapse-1 .middle_nav{
+  margin-left: 100px;
+}
+
+.sea{
+  width: 100%;
+  background-color: blue;
+}
+.sea h1,p{
+  color: white;
+}
+
+.card_titolo{
+  margin-top: 70px;
+  width: 90%;
+  height: 400px;
+}
+
+.card_form{
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  margin-top: 70px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card_form h3{
+  margin-top: 10px;
+}
+.form-group h3:last-of-type{
+  color: blue;
+}
+form .btn{
+  width: 100%;
+  margin-bottom: 10px;
+}
+form .btn_blue{
+  background-color: blue;
+  color: white;
+}
+
+form i{
+margin-left: -70px
+}
+
+form span{
+margin-left: 130px;
+}
