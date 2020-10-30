@@ -42,6 +42,10 @@ h1{
   margin-left: 100px;
 }
 
+
+
+
+
 .sea{
   width: 100%;
   background-color: blue;
@@ -58,7 +62,6 @@ h1{
 
 .card_form{
   width: 100%;
-  height: 300px;
   background-color: white;
   margin-top: 70px;
   padding: 20px;
@@ -67,6 +70,10 @@ h1{
 
 .card_form h3{
   margin-top: 10px;
+}
+
+.card_form p{
+  color: black;
 }
 .form-group h3:last-of-type{
   color: blue;
@@ -97,4 +104,182 @@ margin-left: 130px;
   width: 180px;
 
   padding: 5px;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .sea{
+      width: 100%;
+      height: 500px;
+    }
+
+
+    .card_sponsor img{
+      width: 130px;
+    }
+
+
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .sea{
+      width: 100%;
+
+    }
+
+    h1{
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    .card_sponsor img{
+      width: 100px;
+    }
+
+    .card_form{
+      width: 100%;
+
+      background-color: white;
+      margin-top: 70px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .sea{
+      width: 100%;
+
+    }
+
+    h1{
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    .card_sponsor img{
+      width: 100px;
+    }
+
+    .card_titolo{
+      margin-top: 70px;
+      width: 100%;
+      height: 100px;
+    }
+
+    .card_form{
+      width: 100%;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 50px;
+    }
+
+
 }
