@@ -1,10 +1,17 @@
 body{
   font-family:'Roboto', sans-serif;
+  overflow:
+
 }
+
 
 h1{
   font-weight: 700;
   font-size: 58px;
+}
+
+.mt_50{
+  margin-top: 50px;
 }
 
 .mt_40{
@@ -15,8 +22,15 @@ h1{
   margin-top: 20px;
 }
 
+.mb_50{
+  margin-bottom: 50px;
+}
+
 .mb_30{
   margin-bottom: 30px;
+}
+.mb_20{
+  margin-bottom: 20px;
 }
 
 .navbar{
@@ -43,14 +57,14 @@ h1{
 }
 
 
-
-
-
 .sea{
   width: 100%;
   background-color: blue;
 }
-.sea h1,p{
+.sea h1{
+  color: white;
+}
+.sea p{
   color: white;
 }
 
@@ -87,14 +101,6 @@ form .btn_blue{
   color: white;
 }
 
-form i{
-margin-left: -70px
-}
-
-form span{
-margin-left: 130px;
-}
-
 .sponsor{
   width: 100%;
   background-color: rgb(243, 245, 249)
@@ -102,12 +108,109 @@ margin-left: 130px;
 
 .card_sponsor img{
   width: 180px;
-
   padding: 5px;
 }
 
+.scale h3{
+  color: black;
+}
+
 .scale p{
-  color: black
+  color: black;
+  font-weight:400;
+  font-size: 15px;
+}
+
+.card_menu_scale{
+  width: 50%;
+  height: 200px;
+  border-left: 1px solid black;
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-right: 0px;
+  position: relative;
+}
+.card_menu_scale ul{
+  list-style: none;
+  margin-left: -30px;
+  position: absolute;
+  top: 10px;
+}
+.card_menu_scale ul li{
+  margin-bottom: 20px;
+}
+
+.container_icon{
+  width: 40%;
+}
+
+.card_1_cluster, .card_1_apps{
+  width: 70%;
+  margin-top: 50px;
+}
+
+.scale h6{
+  font-weight: bolder;
+}
+
+.designed{
+  background-color: #f3f5f9
+}
+
+.designed p{
+  font-weight:400;
+}
+.designed h3{
+  color:black;
+}
+
+.designed img{
+  width: 40%;
+}
+.designed i{
+  margin: 20px;
+  font-size: 50px;
+  vertical-align: text-top;
+}
+
+.circle .fa-circle{
+  font-size: 10px;
+  margin: 2px;
+}
+
+.features h3{
+  color: black;
+}
+
+.features h6{
+  font-weight: bolder;
+}
+.features p{
+  font-size: 15px;
+}
+
+.regions{
+  background-color: rgb(3, 27, 78)
+}
+.regions p,h3{
+  color: white;
+}
+.txt_right{
+  text-align: right;
+}
+
+.regions .card_border{
+  width: 90%;
+  overflow: hidden;
+}
+.card_border{
+  border-bottom: 1px solid white;
+  margin-bottom: 15px;
+
+}
+.card_border_none{
+  width: 90%;
+  overflow: hidden;
 }
 
 
@@ -287,7 +390,41 @@ margin-left: 130px;
       padding: 20px;
       border-radius: 10px;
       margin-bottom: 50px;
+      margin-top: 90px
     }
+
+    .card_menu_scale{
+      width: 50%;
+      height: 200px;
+      border-left: 1px solid black;
+      margin-top: 50px;
+      margin-left: 20px;
+      margin-right: 0px;
+      position: relative;
+    }
+
+    .card_1_cluster{
+      margin-top: 20px;
+    }
+    .card_1_apps{
+      margin-top: 0px;
+    }
+
+    .container_icon{
+      width: 100%;
+    }
+    .container_icon h6{
+      font-size: 20px;
+    }
+
+    .designed .fa-angle-left{
+      display: none;
+    }
+    .designed .fa-angle-right{
+      display: none;
+    }
+
+
 
 
 }
