@@ -87,6 +87,7 @@ h3{
   margin-top: 70px;
   padding: 20px;
   border-radius: 10px;
+  margin-bottom: 70px;
 }
 
 .card_form h3{
@@ -227,13 +228,71 @@ form .btn_blue{
 
 .started_now{
   width: 100%;
-
-  background-color:rgb(3, 27, 78);
+  position: relative;
+  background-color:#0069ff;
 }
-
 
 .started_now h3{
   margin-top: 60px;
+}
+.started_now p{
+  color: blue;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+.started_now .button a{
+ color: blue;
+ background-color: white;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.footer{
+  width: 100%;
+
+  background-color: #010e28;
+  position: relative;
+}
+
+.footer h6{
+  color:white;
+  font-weight:bolder;
+  font-size: 15px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.social img{
+  margin-top: 50px;
+}
+.social i{
+  color: #ffffff80;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.social h6{
+  color:#ffffff80;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.social p{
+  color: #ffffff80;
+  margin-top: -5px
+}
+
+.footer ul{
+  text-align:left;
+  list-style: none;
+  margin-left: -40px;
+  margin-bottom: 50px;
+}
+.footer li{
+  margin-bottom: 10px;
+}
+.footer a{
+  color:#ffffff80;
 }
 
 
@@ -342,9 +401,9 @@ form .btn_blue{
 
     .card_form{
       width: 100%;
-
       background-color: white;
       margin-top: 70px;
+      margin-bottom: 50px;
       padding: 20px;
       border-radius: 10px;
     }
